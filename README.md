@@ -1,47 +1,30 @@
-# Landing Page — Meu AuMigu
+# Meu AuMigu — Landing Page de Vendas (visual restaurado)
 
-Landing page de vendas do curso **Meu AuMigu**, transformada a partir da antiga página de pré-inscrição.
+Versão baseada diretamente na página original de pré-inscrição, preservando sua identidade visual, imagens, cores, tipografia, divisores, galeria e composição.
 
-## Arquivos do projeto
+## Alterações realizadas
 
-- `index.html`: página completa, responsiva e independente. Todas as imagens estão incorporadas no próprio HTML em Base64.
-- `README.md`: instruções de publicação e edição.
+- Remoção do formulário de pré-inscrição.
+- Remoção das referências a grupo, live, data de lançamento e abertura de turma.
+- Conversão dos botões para compra direta.
+- Adaptação mínima dos textos para apresentar o Meu AuMigu como curso.
+- Manutenção da estrutura e da arte originais.
+- Nenhuma pasta `assets` foi criada.
 
-> Este projeto não utiliza e não precisa de pasta `assets`.
+## Publicação no GitHub Pages
 
-## O que foi alterado
+1. Envie `index.html` e `README.md` para a raiz do repositório.
+2. Abra **Settings > Pages**.
+3. Em **Build and deployment**, escolha **Deploy from a branch**.
+4. Selecione a branch principal e a pasta `/ (root)`.
+5. Salve.
 
-- Remoção do formulário de pré-inscrição, grupo e live de abertura.
-- Nova promessa principal voltada a pets personalizados.
-- Jornada de vendas completa: dor, solução, galeria, método, técnicas, público, professora, confiança, oferta, garantia e FAQ.
-- Botões ligados ao checkout do Meu AuMigu.
-- Galeria horizontal de peças no estilo streaming, com parte do próximo card visível no celular.
-- Botão de compra fixo no rodapé da versão mobile.
-- Identidade visual e paleta do Meu AuMigu preservadas.
+## Checkout
 
-## Publicar no GitHub Pages
+Os botões estão apontando para:
 
-1. Crie um repositório no GitHub.
-2. Envie apenas `index.html` e `README.md` para a raiz do repositório.
-3. Abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main` e a pasta `/root`.
-6. Salve e aguarde a publicação.
+`https://pay.kiwify.com.br/tD3GMZG`
 
-## Alterar o checkout
+## Observação sobre imagens
 
-No final do `index.html`, localize:
-
-```js
-const CHECKOUT_URL = 'https://pay.kiwify.com.br/tD3GMZG';
-```
-
-Substitua apenas o endereço entre aspas. Todos os botões serão atualizados automaticamente.
-
-## Provas sociais
-
-A página usa atualmente galeria visual dos pets, números de autoridade da professora, comunidade, suporte, garantia e acesso vitalício. Não foram inventados depoimentos. Use somente prints, fotos e frases reais autorizadas.
-
-## Observação
-
-Como todas as imagens estão incorporadas no `index.html`, o arquivo fica maior, mas pode ser publicado sem nenhuma pasta adicional. As fontes continuam sendo carregadas pelo Google Fonts; caso falhem, a página utiliza fontes de sistema como alternativa.
+A página mantém os endereços originais das imagens hospedadas no domínio Arte no Apê para preservar integralmente a arte antiga sem criar uma pasta de arquivos locais.

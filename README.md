@@ -1,50 +1,47 @@
-# Página de vendas — Meu AuMigu
+# Landing Page — Meu AuMigu
 
-Projeto estático preparado para publicação no GitHub Pages.
+Landing page de vendas do curso **Meu AuMigu**, transformada a partir da antiga página de pré-inscrição.
 
-## Arquivos
+## Arquivos do projeto
 
-- `index.html`: página de vendas completa.
-- `README.md`: instruções de uso e publicação.
+- `index.html`: página completa, responsiva e independente. Todas as imagens estão incorporadas no próprio HTML em Base64.
+- `README.md`: instruções de publicação e edição.
 
-## Visualizar no computador
+> Este projeto não utiliza e não precisa de pasta `assets`.
 
-Você pode abrir o arquivo `index.html` diretamente no navegador. Para testar em um servidor local, execute dentro da pasta do projeto:
+## O que foi alterado
 
-```bash
-python -m http.server 8000
-```
-
-Depois, acesse `http://localhost:8000` no navegador.
+- Remoção do formulário de pré-inscrição, grupo e live de abertura.
+- Nova promessa principal voltada a pets personalizados.
+- Jornada de vendas completa: dor, solução, galeria, método, técnicas, público, professora, confiança, oferta, garantia e FAQ.
+- Botões ligados ao checkout do Meu AuMigu.
+- Galeria horizontal de peças no estilo streaming, com parte do próximo card visível no celular.
+- Botão de compra fixo no rodapé da versão mobile.
+- Identidade visual e paleta do Meu AuMigu preservadas.
 
 ## Publicar no GitHub Pages
 
-1. Crie um novo repositório no GitHub.
-2. Envie os arquivos `index.html` e `README.md` para a raiz do repositório.
-3. No repositório, abra **Settings > Pages**.
+1. Crie um repositório no GitHub.
+2. Envie apenas `index.html` e `README.md` para a raiz do repositório.
+3. Abra **Settings → Pages**.
 4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main`, a pasta `/ (root)` e clique em **Save**.
-6. Aguarde o GitHub disponibilizar o endereço público da página.
+5. Escolha a branch `main` e a pasta `/root`.
+6. Salve e aguarde a publicação.
 
-## Atenção antes de publicar
+## Alterar o checkout
 
-Esta página foi preparada a partir de uma exportação do WordPress/Elementor e ainda utiliza arquivos externos hospedados em `artenoape.com`, incluindo imagens, fontes, estilos e scripts. Se esses arquivos forem removidos ou bloqueados no servidor original, partes do visual poderão deixar de carregar.
+No final do `index.html`, localize:
 
-O formulário de pré-inscrição também dependia originalmente do WordPress/Elementor. Em hospedagem estática, como o GitHub Pages, ele precisa ser conectado a um serviço de formulário ou a um link próprio de WhatsApp antes de receber cadastros corretamente.
-
-Também é recomendável revisar e substituir:
-
-- links dos botões;
-- texto, datas e horários;
-- endereço do grupo de WhatsApp;
-- integrações de formulário;
-- pixels e códigos de rastreamento;
-- imagens e materiais protegidos por direitos autorais.
-
-## Estrutura mínima do repositório
-
-```text
-meu-aumigu-pagina-vendas/
-├── index.html
-└── README.md
+```js
+const CHECKOUT_URL = 'https://pay.kiwify.com.br/tD3GMZG';
 ```
+
+Substitua apenas o endereço entre aspas. Todos os botões serão atualizados automaticamente.
+
+## Provas sociais
+
+A página usa atualmente galeria visual dos pets, números de autoridade da professora, comunidade, suporte, garantia e acesso vitalício. Não foram inventados depoimentos. Use somente prints, fotos e frases reais autorizadas.
+
+## Observação
+
+Como todas as imagens estão incorporadas no `index.html`, o arquivo fica maior, mas pode ser publicado sem nenhuma pasta adicional. As fontes continuam sendo carregadas pelo Google Fonts; caso falhem, a página utiliza fontes de sistema como alternativa.

@@ -30,8 +30,9 @@ Os botões estão apontando para:
 A página mantém os endereços originais das imagens hospedadas no domínio Arte no Apê para preservar integralmente a arte antiga sem criar uma pasta de arquivos locais.
 
 
-## Atualização
+## Ajuste solicitado
 
-- A imagem da expert principal foi substituída por uma nova versão personalizada e já está embutida diretamente no `index.html` em Base64.
-- Não existe pasta `assets`.
-- O projeto continua contendo apenas `index.html` e `README.md`.
+- A imagem da expert foi aplicada corretamente no **topo da página**, no mesmo bloco visual do herói principal.
+- O efeito de degradê, moldura e composição foram preservados dentro da nova arte de fundo.
+- O projeto continua sem pasta `assets`.
+- Arquivos incluídos: somente `index.html` e `README.md`.

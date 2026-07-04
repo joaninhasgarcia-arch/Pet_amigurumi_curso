@@ -28,3 +28,10 @@ Os botões estão apontando para:
 ## Observação sobre imagens
 
 A página mantém os endereços originais das imagens hospedadas no domínio Arte no Apê para preservar integralmente a arte antiga sem criar uma pasta de arquivos locais.
+
+
+## Atualização
+
+- A imagem da expert principal foi substituída por uma nova versão personalizada e já está embutida diretamente no `index.html` em Base64.
+- Não existe pasta `assets`.
+- O projeto continua contendo apenas `index.html` e `README.md`.

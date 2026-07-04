@@ -19,3 +19,11 @@ Abra o arquivo index.html no navegador ou publique no GitHub Pages / Vercel.
 - A nova imagem da expert foi embutida no index.html.
 - Logo, título e texto ficam abaixo da imagem.
 - O restante da página foi preservado.
+
+
+## Ajustes desta versão
+
+- Reduzido o espaço abaixo dos três ícones do topo.
+- Removidos o texto de copyright e o divisor de patinha acima dele.
+- Reduzido o espaço antes da seção “O que você vai aprender”.
+- Nenhuma outra seção, imagem, texto ou ícone foi alterado.

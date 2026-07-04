@@ -1,1 +1,7 @@
-# Meu Pet Landing Page\n\nProjeto de landing page otimizada para curso Meu Pet (Amigurumi).\n\n## Arquivos\n- index_FINAL_CORRIGIDO.html: página principal\n\n## Observações\n- Sem pasta assets\n- Imagens embutidas no HTML\n- Estrutura otimizada para conversão
+# Meu Pet Landing Page
+
+Landing page otimizada e corrigida.
+
+## Como usar
+Abra o arquivo index.html no navegador ou publique no GitHub Pages / Vercel.
+

@@ -27,3 +27,6 @@ Abra o arquivo index.html no navegador ou publique no GitHub Pages / Vercel.
 - Removidos o texto de copyright e o divisor de patinha acima dele.
 - Reduzido o espaço antes da seção “O que você vai aprender”.
 - Nenhuma outra seção, imagem, texto ou ícone foi alterado.
+
+
+Atualização: aplicado um degradê suave entre a imagem do topo e o restante da página para suavizar a transição visual.

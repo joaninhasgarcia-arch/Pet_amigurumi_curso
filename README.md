@@ -44,3 +44,8 @@ A página mantém os endereços originais das imagens hospedadas no domínio Art
 - A nova imagem foi ajustada para o mesmo encaixe visual do bloco original.
 - O arquivo continua sem pasta `assets`; a imagem foi embutida diretamente no `index.html` em Base64.
 - O topo corrigido anteriormente foi preservado.
+
+
+## Meu Pet update
+- Nome trocado
+- Trust section adicionada abaixo do hero

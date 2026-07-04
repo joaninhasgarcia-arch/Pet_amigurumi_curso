@@ -36,3 +36,11 @@ A página mantém os endereços originais das imagens hospedadas no domínio Art
 - O efeito de degradê, moldura e composição foram preservados dentro da nova arte de fundo.
 - O projeto continua sem pasta `assets`.
 - Arquivos incluídos: somente `index.html` e `README.md`.
+
+
+## Nova atualização
+
+- A imagem do **bloco do meio da página** foi substituída pela nova foto da expert com o cachorrinho.
+- A nova imagem foi ajustada para o mesmo encaixe visual do bloco original.
+- O arquivo continua sem pasta `assets`; a imagem foi embutida diretamente no `index.html` em Base64.
+- O topo corrigido anteriormente foi preservado.

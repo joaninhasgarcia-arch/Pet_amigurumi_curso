@@ -12,6 +12,3 @@ Abra o arquivo index.html no navegador ou publique no GitHub Pages / Vercel.
 - Inserida a imagem dos selos de confiança logo abaixo do primeiro botão CTA.
 - A imagem foi embutida diretamente no `index.html` em Base64 para evitar erro de arquivo ausente.
 - Mantida a estrutura original da página.
-
-
-Atualização final: topo da página corrigido com a nova imagem da expert embutida diretamente no index.html, sem zoom e com logo/título/texto posicionados abaixo da imagem.

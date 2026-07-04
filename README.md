@@ -30,3 +30,6 @@ Abra o arquivo index.html no navegador ou publique no GitHub Pages / Vercel.
 
 
 Atualização: aplicado um degradê suave entre a imagem do topo e o restante da página para suavizar a transição visual.
+
+
+Atualização: a seção “O que você vai aprender” recebeu títulos centralizados, hierarquia tipográfica melhor e ícones autorais embutidos no próprio HTML. Nenhuma outra parte da página foi alterada.

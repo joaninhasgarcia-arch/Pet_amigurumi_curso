@@ -37,3 +37,6 @@ Atualização: a seção “O que você vai aprender” recebeu títulos central
 
 ## Atualização desta versão
 Foi adicionada, ao final da página, a seção “Para quem é o Meu AuMigu?”, com checklist adaptado ao curso de criação e personalização de pets em amigurumi. A alteração não modifica as outras seções da página e não utiliza arquivos externos.
+
+
+Atualização: imagem final da expert com cachorrinhos em amigurumi adicionada ao final da página, embutida diretamente no index.html.

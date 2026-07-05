@@ -33,3 +33,7 @@ Atualização: aplicado um degradê suave entre a imagem do topo e o restante da
 
 
 Atualização: a seção “O que você vai aprender” recebeu títulos centralizados, hierarquia tipográfica melhor e ícones autorais embutidos no próprio HTML. Nenhuma outra parte da página foi alterada.
+
+
+## Atualização desta versão
+Foi adicionada, ao final da página, a seção “Para quem é o Meu AuMigu?”, com checklist adaptado ao curso de criação e personalização de pets em amigurumi. A alteração não modifica as outras seções da página e não utiliza arquivos externos.

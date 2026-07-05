@@ -40,3 +40,5 @@ Foi adicionada, ao final da página, a seção “Para quem é o Meu AuMigu?”,
 
 
 Atualização: imagem final da expert com cachorrinhos em amigurumi adicionada ao final da página, embutida diretamente no index.html.
+
+Atualização: seção final conectada visualmente ao checklist, com remoção do espaço excessivo e transição suave de cor.

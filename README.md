@@ -82,3 +82,15 @@ O ZIP final contém apenas dois arquivos na raiz:
 - `README.md`
 
 A imagem do notebook está incorporada dentro do `index.html`, portanto não é necessário enviar nenhuma pasta ou arquivo de imagem separado ao GitHub.
+
+
+## Ajuste de responsividade da seção de módulos
+
+Nesta revisão foram corrigidos:
+
+- sobreposição do notebook sobre o título e o texto introdutório;
+- títulos dos módulos cortados dentro dos cards;
+- tamanho e peso excessivos da tipografia;
+- espaçamentos da seção em telas de celular.
+
+A imagem do notebook permanece incorporada diretamente no `index.html`; o ZIP contém apenas `index.html` e `README.md`.

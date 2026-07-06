@@ -51,3 +51,14 @@ Atualização: seção final conectada visualmente ao checklist, com remoção d
 - A seção apresenta 4 módulos principais e 4 bônus, seguindo a identidade visual da landing page.
 - A imagem do notebook continua incorporada diretamente no `index.html`; não é necessário enviar uma pasta de imagens.
 
+
+
+## Refinamento visual da seção de módulos
+
+Esta versão traz um redesenho da seção **Módulos**, com foco em apresentação mais elegante e responsiva:
+
+- notebook com visual mais destacado e sensação de profundidade;
+- tipografia mais encorpada;
+- cards dos módulos redesenhados com a paleta clara/oliva da página;
+- acordeão mais limpo, sem cortes de texto em telas menores;
+- bônus longos ajustados para leitura melhor no celular.

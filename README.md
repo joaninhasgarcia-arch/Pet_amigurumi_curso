@@ -111,3 +111,21 @@ O ZIP continua contendo apenas `index.html` e `README.md`.
 ## Ajuste nos depoimentos
 
 Foram removidos dos cards os selos “Relato ilustrativo” e também o aviso exibido abaixo dos comentários.
+
+
+## Seção de bônus adicionada
+
+Foi incluída a seção **“5 bônus totalmente grátis”** no final da landing page, depois de toda a seção de depoimentos, contendo:
+
+1. Material de apoio em PDF;
+2. Aula de precificação;
+3. Aula de marketing e vendas;
+4. Dicas de fotografia;
+5. Sete receitas exclusivas com exemplos de raças de cães e gatos.
+
+A seção segue a paleta off-white, bege e oliva da landing page, é responsiva e não depende de arquivos externos.
+
+
+## Posição final da seção de bônus
+
+A seção **“5 bônus totalmente grátis”** foi movida para o final absoluto do conteúdo da landing page, ficando depois dos depoimentos e antes apenas dos scripts técnicos de funcionamento da página. O visual, a paleta e os cards da seção foram preservados.

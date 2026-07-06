@@ -139,3 +139,9 @@ Foi removido o bloco de fechamento que informava **“Mais de R$505 em conteúdo
 ## Amigurumis no final dos bônus
 
 Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com sete pets em amigurumi alinhados e efeito de profundidade. A imagem está recortada, possui fundo transparente e foi incorporada diretamente no `index.html`, mantendo o projeto com apenas dois arquivos.
+
+## Atualização mais recente
+- Corrigido o posicionamento da logo “Meu Pet”.
+- Removidas as logos duplicadas em locais indevidos.
+- Inserida a logo transparente apenas na área correta, abaixo da foto principal e antes do título inicial.
+

@@ -42,3 +42,12 @@ Foi adicionada, ao final da página, a seção “Para quem é o Meu AuMigu?”,
 Atualização: imagem final da expert com cachorrinhos em amigurumi adicionada ao final da página, embutida diretamente no index.html.
 
 Atualização: seção final conectada visualmente ao checklist, com remoção do espaço excessivo e transição suave de cor.
+
+## Seção de módulos — versão corrigida
+
+- A imagem final da especialista com os pets foi mantida em sua posição original.
+- A nova seção **Módulos** foi posicionada logo abaixo dessa imagem.
+- O notebook, os títulos e os cards receberam ajustes de largura e responsividade para não ficarem cortados em celulares.
+- A seção apresenta 4 módulos principais e 4 bônus, seguindo a identidade visual da landing page.
+- A imagem do notebook continua incorporada diretamente no `index.html`; não é necessário enviar uma pasta de imagens.
+

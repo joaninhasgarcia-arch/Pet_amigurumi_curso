@@ -104,7 +104,6 @@ Foi adicionada ao final da landing page a seção **“O que nossas alunas estã
 - transição em degradê para integrar a imagem à paleta da página;
 - sete cards responsivos com avatar, estrelas, nome e texto;
 - todas as imagens incorporadas diretamente no `index.html`;
-- comentários dos cards marcados como ilustrativos, para substituição por depoimentos reais e autorizados antes da publicação final.
 
 O ZIP continua contendo apenas `index.html` e `README.md`.
 

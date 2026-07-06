@@ -107,3 +107,8 @@ Foi adicionada ao final da landing page a seção **“O que nossas alunas estã
 - comentários dos cards marcados como ilustrativos, para substituição por depoimentos reais e autorizados antes da publicação final.
 
 O ZIP continua contendo apenas `index.html` e `README.md`.
+
+
+## Ajuste nos depoimentos
+
+Foram removidos dos cards os selos “Relato ilustrativo” e também o aviso exibido abaixo dos comentários.

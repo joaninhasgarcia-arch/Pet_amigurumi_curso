@@ -61,3 +61,24 @@ A seção de módulos foi redesenhada com uma apresentação mais próxima do la
 - cards de módulos em formato retangular com abertura em estilo acordeão;
 - paleta alinhada aos tons claros e oliva da landing page;
 - tipografia mais encorpada e organização visual mais limpa no mobile.
+
+
+## Reconstrução total da seção de módulos
+
+Esta versão substitui completamente a seção anterior por um novo bloco visual, com foco em acabamento mais elegante e consistente com a landing page:
+
+- notebook com fundo transparente e destaque no topo da seção;
+- estrutura visual inspirada na referência, mas adaptada à paleta off-white + oliva claro da página;
+- acordeão de módulos reconstruído do zero;
+- tipografia mais encorpada e leitura melhor no mobile;
+- imagem do notebook incorporada diretamente no `index.html`.
+
+
+## Estrutura final do pacote
+
+O ZIP final contém apenas dois arquivos na raiz:
+
+- `index.html`
+- `README.md`
+
+A imagem do notebook está incorporada dentro do `index.html`, portanto não é necessário enviar nenhuma pasta ou arquivo de imagem separado ao GitHub.

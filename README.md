@@ -129,3 +129,13 @@ A seção segue a paleta off-white, bege e oliva da landing page, é responsiva 
 ## Posição final da seção de bônus
 
 A seção **“5 bônus totalmente grátis”** foi movida para o final absoluto do conteúdo da landing page, ficando depois dos depoimentos e antes apenas dos scripts técnicos de funcionamento da página. O visual, a paleta e os cards da seção foram preservados.
+
+
+## Ajuste final da seção de bônus
+
+Foi removido o bloco de fechamento que informava **“Mais de R$505 em conteúdos extras incluídos no curso sem custo adicional”**. A seção agora termina diretamente no card **“7 receitas exclusivas”**.
+
+
+## Amigurumis no final dos bônus
+
+Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com sete pets em amigurumi alinhados e efeito de profundidade. A imagem está recortada, possui fundo transparente e foi incorporada diretamente no `index.html`, mantendo o projeto com apenas dois arquivos.

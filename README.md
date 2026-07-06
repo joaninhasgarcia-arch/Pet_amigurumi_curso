@@ -96,6 +96,14 @@ Nesta revisão foram corrigidos:
 A imagem do notebook permanece incorporada diretamente no `index.html`; o ZIP contém apenas `index.html` e `README.md`.
 
 
-## Elemento decorativo no fim dos módulos
+## Seção de depoimentos
 
-Foi adicionada uma composição de quatro novelos de lã no final da seção de módulos, com fundo removido, sombra suave e efeito de profundidade. A imagem está incorporada diretamente no `index.html`, portanto o projeto continua contendo somente `index.html` e `README.md`.
+Foi adicionada ao final da landing page a seção **“O que nossas alunas estão dizendo”**, contendo:
+
+- imagem principal da especialista com mensagens recebidas;
+- transição em degradê para integrar a imagem à paleta da página;
+- sete cards responsivos com avatar, estrelas, nome e texto;
+- todas as imagens incorporadas diretamente no `index.html`;
+- comentários dos cards marcados como ilustrativos, para substituição por depoimentos reais e autorizados antes da publicação final.
+
+O ZIP continua contendo apenas `index.html` e `README.md`.

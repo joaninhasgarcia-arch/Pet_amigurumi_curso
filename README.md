@@ -147,3 +147,10 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - Removidas as logos duplicadas em locais indevidos.
 - Inserida a logo transparente apenas na área correta, abaixo da foto principal e antes do título inicial.
 
+## Seção de oferta
+- Adicionada no final da página, depois dos bônus.
+- Plano Essencial: R$24,99, com visual mais discreto.
+- Plano Completo: de R$199,00 por R$38,99, com destaque, bônus e garantia de 7 dias.
+- O botão do Plano Completo usa o checkout já existente na página.
+- O botão do Plano Essencial está apontando para `#comprar` e pode receber um checkout próprio depois.
+

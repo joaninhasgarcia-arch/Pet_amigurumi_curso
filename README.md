@@ -94,3 +94,8 @@ Nesta revisão foram corrigidos:
 - espaçamentos da seção em telas de celular.
 
 A imagem do notebook permanece incorporada diretamente no `index.html`; o ZIP contém apenas `index.html` e `README.md`.
+
+
+## Elemento decorativo no fim dos módulos
+
+Foi adicionada uma composição de quatro novelos de lã no final da seção de módulos, com fundo removido, sombra suave e efeito de profundidade. A imagem está incorporada diretamente no `index.html`, portanto o projeto continua contendo somente `index.html` e `README.md`.

@@ -53,12 +53,11 @@ Atualização: seção final conectada visualmente ao checklist, com remoção d
 
 
 
-## Refinamento visual da seção de módulos
+## Nova versão da seção de módulos
 
-Esta versão traz um redesenho da seção **Módulos**, com foco em apresentação mais elegante e responsiva:
+A seção de módulos foi redesenhada com uma apresentação mais próxima do layout de referência solicitado:
 
-- notebook com visual mais destacado e sensação de profundidade;
-- tipografia mais encorpada;
-- cards dos módulos redesenhados com a paleta clara/oliva da página;
-- acordeão mais limpo, sem cortes de texto em telas menores;
-- bônus longos ajustados para leitura melhor no celular.
+- notebook destacado no topo, com visual de mockup e sensação 3D;
+- cards de módulos em formato retangular com abertura em estilo acordeão;
+- paleta alinhada aos tons claros e oliva da landing page;
+- tipografia mais encorpada e organização visual mais limpa no mobile.

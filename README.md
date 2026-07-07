@@ -155,3 +155,9 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - O botão do Plano Completo usa o checkout já existente na página.
 - O botão do Plano Essencial está apontando para `#comprar` e pode receber um checkout próprio depois.
 
+## Atualização — seção de garantia
+- Removidos os dois elementos antigos de “7 dias de garantia” da oferta completa.
+- Inserido um selo único de garantia abaixo da última oferta, sem sobrepor o botão.
+- Adicionada a seção “O risco é todo meu!” com explicação do reembolso em até 7 dias.
+- O selo foi incorporado diretamente ao `index.html`; o ZIP continua com somente dois arquivos.
+

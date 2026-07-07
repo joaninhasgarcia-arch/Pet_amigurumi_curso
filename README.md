@@ -168,3 +168,7 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - Mantida a paleta off-white, bege e verde-oliva da landing page.
 - O ZIP continua contendo somente `index.html` e `README.md`.
 
+## Atualização de navegação
+- O primeiro botão da página agora faz uma rolagem suave até a seção de bônus.
+- O segundo botão da página agora faz uma rolagem suave para o ponto central entre os planos Essencial e Completo.
+

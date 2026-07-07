@@ -161,3 +161,10 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - Adicionada a seção “O risco é todo meu!” com explicação do reembolso em até 7 dias.
 - O selo foi incorporado diretamente ao `index.html`; o ZIP continua com somente dois arquivos.
 
+## Atualização — professora e FAQ
+- Adicionada a seção **Conheça sua professora**, com a imagem de Mariana Rezende incorporada diretamente ao `index.html`.
+- Aplicados degradês suaves entre a imagem e o texto de apresentação.
+- Adicionada a seção final de **Perguntas frequentes**, com sete perguntas em formato expansível.
+- Mantida a paleta off-white, bege e verde-oliva da landing page.
+- O ZIP continua contendo somente `index.html` e `README.md`.
+

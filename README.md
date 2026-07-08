@@ -173,3 +173,9 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - O primeiro botão da página agora faz uma rolagem suave até a seção de bônus.
 - O segundo botão da página agora faz uma rolagem suave para o ponto central entre os planos Essencial e Completo.
 
+## Meta Pixel
+
+- Pixel da Meta instalado no `index.html`.
+- ID configurado: `1696881438314279`.
+- Evento inicial configurado: `PageView`.
+- A configuração antiga do PixelYourSite, vinculada a outro Pixel, foi removida para evitar eventos duplicados.

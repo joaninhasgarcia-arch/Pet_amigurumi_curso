@@ -153,8 +153,8 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - Adicionada no final da página, depois dos bônus.
 - Plano Essencial: R$24,99, com visual mais discreto.
 - Plano Completo: de R$199,00 por R$38,99, com destaque, bônus e garantia de 7 dias.
-- O botão do Plano Completo usa o checkout já existente na página.
-- O botão do Plano Essencial está apontando para `#comprar` e pode receber um checkout próprio depois.
+- O botão do Plano Essencial (R$24,99) direciona para o checkout da Cakto: `https://pay.cakto.com.br/y2mbwcs_970161`.
+- O botão do Plano Completo (R$38,99) direciona para o checkout da Cakto: `https://pay.cakto.com.br/fdf3cfe`.
 
 ## Atualização — seção de garantia
 - Removidos os dois elementos antigos de “7 dias de garantia” da oferta completa.

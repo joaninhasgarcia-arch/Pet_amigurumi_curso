@@ -179,3 +179,28 @@ Foi adicionada, abaixo do card **7 receitas exclusivas**, uma composição com s
 - ID configurado: `1696881438314279`.
 - Evento inicial configurado: `PageView`.
 - A configuração antiga do PixelYourSite, vinculada a outro Pixel, foi removida para evitar eventos duplicados.
+
+## Revisão de conversão — versão preservando o design
+
+Esta versão foi editada de forma conservadora, mantendo a estrutura, a identidade visual, os checkouts, a responsividade, os scripts, as seções existentes e as imagens já incorporadas.
+
+### Ajustes aplicados
+- Headline principal fortalecida para comunicar a transformação de uma foto real em um pet personalizado.
+- Texto inicial revisado para destacar as 35 raças e a vantagem da estrutura-base única.
+- Título da seção de público reposicionado para enfatizar peças profissionais, personalizadas e afetivas.
+- Seção “O que você vai aprender” revisada com títulos orientados a benefícios e textos mais persuasivos.
+- Textos dos módulos revisados para mostrar o resultado prático de cada etapa, sem mudar os cards ou o acordeão.
+- Nova seção “Da referência à peça pronta”, com duas comparações entre pet real e amigurumi.
+- As quatro novas imagens foram incorporadas diretamente ao `index.html` em Base64.
+- Incluído um bloco discreto de quebra de objeções e um CTA que leva à oferta.
+- Microcopy da oferta e do FAQ refinada.
+
+### Itens preservados
+- Layout e paleta originais.
+- Tipografia e estética da landing page.
+- Seções de módulos, depoimentos, bônus, ofertas, garantia, professora e FAQ.
+- Links dos checkouts Cakto.
+- Meta Pixel e scripts existentes.
+- Funcionamento mobile.
+
+O pacote final continua independente de pastas externas: basta publicar o `index.html`.

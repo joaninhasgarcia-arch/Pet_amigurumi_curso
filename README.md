@@ -205,55 +205,13 @@ Esta versão foi editada de forma conservadora, mantendo a estrutura, a identida
 
 O pacote final continua independente de pastas externas: basta publicar o `index.html`.
 
-## Card flutuante de confiança e atividade
+## Atualização — card minimalista de inscrições
 
-Foi adicionado um card discreto e responsivo no canto inferior da tela, sem alterar a estrutura, as fontes, as seções ou o design existente da página.
-
-### Comportamento padrão
-
-Quando não há compras reais informadas, o card alterna somente mensagens verdadeiras da própria oferta:
-
-- pagamento protegido;
-- garantia de 7 dias;
-- acesso após a confirmação do pagamento.
-
-O visitante pode fechar o card; ele permanece oculto durante aquela sessão.
-
-### Como mostrar compras reais
-
-Por transparência, nomes aleatórios ou compras inventadas não foram ativados. Para exibir inscrições verdadeiras, inclua esta configuração antes do script `meupet-trust-popup-script` no final do `index.html`:
-
-```html
-<script>
-window.MEU_PET_PURCHASES = [
-  {
-    name: "Nome da aluna",
-    city: "Cidade - UF",
-    purchasedAt: "2026-07-21T20:30:00-03:00",
-    verified: true
-  }
-];
-</script>
-```
-
-Também é possível enviar uma nova compra em tempo real por JavaScript:
-
-```js
-window.meuPetPushPurchase({
-  name: "Nome da aluna",
-  city: "Cidade - UF",
-  purchasedAt: new Date().toISOString(),
-  verified: true
-});
-```
-
-Para automação completa, essa função deve receber dados confirmados do checkout por meio de uma integração segura no servidor.
-
-
-## Atualização — notificações de alunas
-
-- O card flutuante foi mantido no canto inferior da página, sem alterar a estrutura, as fontes, as imagens, as seções ou os checkouts.
-- O card agora alterna os nomes **Mariana** e **Joana**, informados como clientes reais, com a mensagem de inscrição no curso Meu Pet.
-- Não são exibidos cidade, horário ou tempo de compra inventados.
-- Para acrescentar outras clientes reais, edite o array `customers` dentro do script `meupet-trust-popup-script` no final do `index.html`.
-- O Meta Pixel foi preservado com o ID `1696881438314279` e o evento `PageView`.
+- O card de atividade foi redesenhado em um formato menor, mais leve e minimalista.
+- Ele continua no canto inferior da tela e não altera nenhuma seção, fonte, imagem, checkout ou estrutura da landing page.
+- Os nomes são exibidos em ordem aleatória: Mariana, Joana, Joana Marília, Ana Francisca, Roberta, Estela, Yasmin, Joana Maria, Priscila Moraes e Mikaeli Nogueira.
+- A primeira notificação aparece cerca de 4 segundos após a abertura da página.
+- Uma nova notificação é exibida a cada 10 segundos; cada card permanece visível por aproximadamente 4,3 segundos.
+- A pessoa pode fechar o card, que fica oculto durante a sessão atual.
+- O Meta Pixel permanece preservado com o ID `1696881438314279` e o evento inicial `PageView`.
+- O pacote continua contendo apenas `index.html` e `README.md`.

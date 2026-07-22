@@ -204,22 +204,3 @@ Esta versão foi editada de forma conservadora, mantendo a estrutura, a identida
 - Funcionamento mobile.
 
 O pacote final continua independente de pastas externas: basta publicar o `index.html`.
-
-## Atualização — card minimalista de inscrições
-
-- O card de atividade foi redesenhado em um formato menor, mais leve e minimalista.
-- Ele continua no canto inferior da tela e não altera nenhuma seção, fonte, imagem, checkout ou estrutura da landing page.
-- Os nomes são exibidos em ordem aleatória: Mariana, Joana, Joana Marília, Ana Francisca, Roberta, Estela, Yasmin, Joana Maria, Priscila Moraes e Mikaeli Nogueira.
-- A primeira notificação aparece cerca de 4 segundos após a abertura da página.
-- Uma nova notificação é exibida a cada 10 segundos; cada card permanece visível por aproximadamente 4,3 segundos.
-- A pessoa pode fechar o card, que fica oculto durante a sessão atual.
-- O Meta Pixel permanece preservado com o ID `1696881438314279` e o evento inicial `PageView`.
-- O pacote continua contendo apenas `index.html` e `README.md`.
-
-## Correção — visual do card no celular
-
-- Corrigido o botão de fechar que estava herdando a cor verde e o tamanho de botões globais do tema.
-- Em telas de celular, o `X` foi removido para manter o card limpo e perfeitamente alinhado; a notificação continua desaparecendo automaticamente.
-- O card ficou um pouco mais compacto, com margens seguras e largura adaptada ao viewport.
-- Nenhuma seção, fonte, imagem, checkout ou configuração do Meta Pixel foi alterada.
-

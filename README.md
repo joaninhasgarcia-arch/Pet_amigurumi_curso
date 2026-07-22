@@ -215,3 +215,11 @@ O pacote final continua independente de pastas externas: basta publicar o `index
 - A pessoa pode fechar o card, que fica oculto durante a sessão atual.
 - O Meta Pixel permanece preservado com o ID `1696881438314279` e o evento inicial `PageView`.
 - O pacote continua contendo apenas `index.html` e `README.md`.
+
+## Correção — visual do card no celular
+
+- Corrigido o botão de fechar que estava herdando a cor verde e o tamanho de botões globais do tema.
+- Em telas de celular, o `X` foi removido para manter o card limpo e perfeitamente alinhado; a notificação continua desaparecendo automaticamente.
+- O card ficou um pouco mais compacto, com margens seguras e largura adaptada ao viewport.
+- Nenhuma seção, fonte, imagem, checkout ou configuração do Meta Pixel foi alterada.
+

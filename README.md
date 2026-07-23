@@ -1,27 +1,26 @@
-# Meu Pet — versão corrigida e otimizada
+# Meu Pet — ajustes visuais solicitados
 
-Esta versão preserva a estrutura visual, as fontes, os links de checkout e o Meta Pixel da página original.
+Esta versão parte da página antiga aprovada e preserva a identidade visual, o Meta Pixel, os links de checkout, as ofertas, os depoimentos, a garantia, o FAQ e as demais seções que não foram mencionadas no pedido.
 
-## Correções aplicadas
+## Alterações realizadas
 
-- Efeito suave de entrada/deslizamento dos elementos durante a rolagem.
-- Pop-up minimalista com os nomes das clientes informadas.
-  - primeira aparição: 8 segundos;
-  - próximas aparições: intervalo de 20 segundos;
-  - limite: 3 aparições por visita;
-  - o botão de fechar é ocultado no mobile para evitar desalinhamento.
-- Plano Essencial com marcações de X vermelho nas funcionalidades não incluídas.
-- Suporte ao aluno e garantia de 7 dias exibidos nos dois planos.
-- Diferenciação explícita: as 35 raças pertencem ao conteúdo do curso; as 7 receitas são bônus adicionais do Plano Completo.
-- Imagens incorporadas convertidas para WebP em alta qualidade e carregamento tardio aplicado abaixo da primeira tela.
+- Reformulação tipográfica da frase “Para quem quer criar peças profissionais, personalizadas e cheias de afeto”, com melhor hierarquia, espaçamento e leitura no mobile.
+- Remoção completa da seção antiga “Comece a criar pets personalizados com o Meu Pet”, incluindo a fotografia com o cachorro, os cards e o conteúdo associado.
+- Reposicionamento do CTA “QUERO ENTRAR NO MEU PET” para o final da nova seção de aprendizado.
+- Reconstrução da seção “O que você será capaz de criar” em cards compactos e numerados, com ícones antigos removidos e menos espaços vazios.
+- Enquadramento mais enxuto da fotografia da expert com os amigurumis, reduzindo o espaço excessivo acima e abaixo no mobile.
+- Remoção da frase localizada abaixo dos módulos.
+- Remoção do aviso que comparava as 35 raças com as 7 receitas do Plano Completo.
+- Harmonização da fonte e da composição do quadro verde ao final da apresentação da professora.
 
-## Publicação no GitHub/Vercel
+## Elementos preservados
 
-Envie o `index.html` desta pasta para o mesmo local do arquivo atual. Nenhuma pasta adicional de imagens é necessária, pois as imagens continuam incorporadas no HTML.
+- Meta Pixel: 1696881438314279.
+- Links de checkout e botões de compra.
+- Estrutura das ofertas e valores.
+- Pop-ups e efeitos já existentes.
+- Imagens incorporadas no próprio `index.html`.
 
-## Verificações
+## Publicação
 
-- Meta Pixel preservado.
-- Links de checkout preservados.
-- Layout responsivo preservado.
-- Imagens convertidas: 23 ocorrências (20 arquivos únicos).
+Substitua o `index.html` atual pelo arquivo desta pasta. Não é necessário enviar uma pasta separada de imagens.

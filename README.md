@@ -1,26 +1,33 @@
-# Meu Pet — refinamentos de conversão e layout (versão 2)
+# Meu Pet — urgência, copy de vendas e resultados das alunas (versão 3)
 
-Esta versão parte do arquivo aprovado anteriormente e mantém o Meta Pixel, os dois links de checkout, a identidade visual, as imagens incorporadas no HTML e as seções que não foram citadas no pedido.
+Esta versão mantém a estrutura visual da página, o Meta Pixel, os links de checkout, as imagens incorporadas e as demais seções aprovadas.
 
 ## Alterações realizadas
 
-- Hero reorganizado para criar mais espaço entre headline, texto, botão e selos de confiança.
-- Headline principal reduzida e equilibrada no mobile, sem perder a identidade tipográfica.
-- Avisos discretos de **oferta relâmpago** e condição promocional, sem contador artificial.
-- Seção de público alterada para a pergunta **“Para quem é o Meu Pet?”**, eliminando repetição.
-- Texto da seção de público ampliado e direcionado a encomendas, valor percebido e geração de renda.
-- Destaques comerciais adicionados de forma discreta, sem promessas de ganhos garantidos.
-- Título da comparação real x amigurumi alinhado e equilibrado.
-- Enquadramento da primeira foto real corrigido para evitar o corte da cabeça do cachorro.
-- Seção de aprendizado simplificada para exibir apenas o título **“O que você vai aprender”**, os cards numerados e a fotografia integrada.
-- Texto repetido ao lado da fotografia removido; a imagem agora fecha a seção de forma mais enxuta.
-- Texto introdutório repetido da seção de depoimentos removido.
-- Parágrafo redundante acima das ofertas removido.
-- Estrutura pronta para inserir resultados reais das alunas com: foto do amigurumi, valor vendido, comentário e nome. Ela está oculta até o conteúdo real ser enviado.
+- Faixa móvel e fixa no topo destacando a condição promocional ativa.
+- Aviso principal da oferta ampliado, com contraste e leitura melhores no mobile.
+- Aviso da seção de preços também ampliado e reforçado.
+- Copy principal reescrita em linguagem mais direta e informal.
+- Mensagens de venda reformuladas para explicar de forma simples como o pet personalizado pode gerar encomendas.
+- Remoção da expressão formal “alto valor percebido”.
+- Bloco de comparação reforçado com a lógica visual do “antes e depois”.
+- Área de resultados das alunas reconstruída com quatro espaços para: foto real, valor da venda, comentário e nome.
+- A área de resultados permanece oculta até o envio das provas reais.
 
-## Estrutura preparada para resultados das alunas
+## Sobre a urgência
 
-No `index.html`, procure por `RESULTADOS DAS ALUNAS`. Há três cards prontos dentro de `#resultados-alunas`. Ao receber as imagens e informações reais, basta substituir os campos e remover o atributo `hidden`.
+A página usa uma urgência forte, mas sem inventar quantidade exata de vagas. A frase informa que a condição promocional pode sair do ar sem aviso. Um número como “restam 3 vagas” só deve ser publicado quando corresponder à disponibilidade real.
+
+## Como ativar os resultados das alunas
+
+No `index.html`, procure por `RESULTADOS DAS ALUNAS`. Substitua os quatro modelos com:
+
+1. foto real do amigurumi;
+2. valor real pelo qual foi vendido;
+3. comentário real e espontâneo da aluna;
+4. nome da aluna.
+
+Depois, remova apenas o atributo `hidden` da seção `#resultados-alunas`.
 
 ## Elementos preservados e conferidos
 
@@ -32,4 +39,4 @@ No `index.html`, procure por `RESULTADOS DAS ALUNAS`. Há três cards prontos de
 
 ## Publicação
 
-Substitua o `index.html` atual pelo arquivo desta pasta. Não é necessário subir uma pasta separada de imagens.
+Substitua o arquivo atual pelo novo `index.html`. Não é necessário subir uma pasta de imagens.

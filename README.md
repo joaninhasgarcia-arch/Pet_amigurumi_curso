@@ -1,26 +1,35 @@
-# Meu Pet — ajustes visuais solicitados
+# Meu Pet — refinamentos de conversão e layout (versão 2)
 
-Esta versão parte da página antiga aprovada e preserva a identidade visual, o Meta Pixel, os links de checkout, as ofertas, os depoimentos, a garantia, o FAQ e as demais seções que não foram mencionadas no pedido.
+Esta versão parte do arquivo aprovado anteriormente e mantém o Meta Pixel, os dois links de checkout, a identidade visual, as imagens incorporadas no HTML e as seções que não foram citadas no pedido.
 
 ## Alterações realizadas
 
-- Reformulação tipográfica da frase “Para quem quer criar peças profissionais, personalizadas e cheias de afeto”, com melhor hierarquia, espaçamento e leitura no mobile.
-- Remoção completa da seção antiga “Comece a criar pets personalizados com o Meu Pet”, incluindo a fotografia com o cachorro, os cards e o conteúdo associado.
-- Reposicionamento do CTA “QUERO ENTRAR NO MEU PET” para o final da nova seção de aprendizado.
-- Reconstrução da seção “O que você será capaz de criar” em cards compactos e numerados, com ícones antigos removidos e menos espaços vazios.
-- Enquadramento mais enxuto da fotografia da expert com os amigurumis, reduzindo o espaço excessivo acima e abaixo no mobile.
-- Remoção da frase localizada abaixo dos módulos.
-- Remoção do aviso que comparava as 35 raças com as 7 receitas do Plano Completo.
-- Harmonização da fonte e da composição do quadro verde ao final da apresentação da professora.
+- Hero reorganizado para criar mais espaço entre headline, texto, botão e selos de confiança.
+- Headline principal reduzida e equilibrada no mobile, sem perder a identidade tipográfica.
+- Avisos discretos de **oferta relâmpago** e condição promocional, sem contador artificial.
+- Seção de público alterada para a pergunta **“Para quem é o Meu Pet?”**, eliminando repetição.
+- Texto da seção de público ampliado e direcionado a encomendas, valor percebido e geração de renda.
+- Destaques comerciais adicionados de forma discreta, sem promessas de ganhos garantidos.
+- Título da comparação real x amigurumi alinhado e equilibrado.
+- Enquadramento da primeira foto real corrigido para evitar o corte da cabeça do cachorro.
+- Seção de aprendizado simplificada para exibir apenas o título **“O que você vai aprender”**, os cards numerados e a fotografia integrada.
+- Texto repetido ao lado da fotografia removido; a imagem agora fecha a seção de forma mais enxuta.
+- Texto introdutório repetido da seção de depoimentos removido.
+- Parágrafo redundante acima das ofertas removido.
+- Estrutura pronta para inserir resultados reais das alunas com: foto do amigurumi, valor vendido, comentário e nome. Ela está oculta até o conteúdo real ser enviado.
 
-## Elementos preservados
+## Estrutura preparada para resultados das alunas
 
-- Meta Pixel: 1696881438314279.
-- Links de checkout e botões de compra.
-- Estrutura das ofertas e valores.
-- Pop-ups e efeitos já existentes.
-- Imagens incorporadas no próprio `index.html`.
+No `index.html`, procure por `RESULTADOS DAS ALUNAS`. Há três cards prontos dentro de `#resultados-alunas`. Ao receber as imagens e informações reais, basta substituir os campos e remover o atributo `hidden`.
+
+## Elementos preservados e conferidos
+
+- Meta Pixel: `1696881438314279`.
+- Checkout Plano Essencial: `https://pay.cakto.com.br/y2mbwcs_970161`.
+- Checkout Plano Completo: `https://pay.cakto.com.br/fdf3cfe`.
+- Imagens incorporadas diretamente no HTML.
+- Responsividade para mobile e desktop.
 
 ## Publicação
 
-Substitua o `index.html` atual pelo arquivo desta pasta. Não é necessário enviar uma pasta separada de imagens.
+Substitua o `index.html` atual pelo arquivo desta pasta. Não é necessário subir uma pasta separada de imagens.

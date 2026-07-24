@@ -1,28 +1,25 @@
-# Meu Pet — ajustes promocionais v4
+# Página Meu Pet — promoção v5
 
-Arquivos prontos para publicação:
+Arquivo pronto para publicação no GitHub/Vercel.
 
-- `index.html`: página completa, com estilos, imagens e scripts incorporados.
-- `README.md`: este resumo.
+## Alterações desta versão
 
-## Alterações realizadas
+- Cronômetro de 18 minutos redesenhado sem emoji e sem preços no topo.
+- Faixa rotativa de urgência restaurada logo abaixo do cronômetro.
+- Carrossel minimalista com as 4 conversas enviadas pelas alunas.
+- Seis fotos de amigurumis inseridas em formato quadrado abaixo dos depoimentos.
+- O sétimo depoimento permanece com o espaço preparado para a foto que ainda será enviada.
+- Valores exibidos nos resultados das alunas foram reduzidos entre R$ 50 e R$ 80.
+- Planos da oferta permanecem em R$ 19,99 e R$ 29,99 somente na seção de compra.
+- Pixel, Google Tag Manager e links de checkout existentes foram preservados.
+- Todas as imagens, estilos e scripts estão incorporados no próprio `index.html`.
 
-- Cronômetro de 18 minutos no topo, integrado à paleta marrom da página.
-- O tempo é mantido durante a mesma sessão/aba e não reinicia ao atualizar a página.
-- Valores atualizados:
-  - Plano Básico: R$ 19,99.
-  - Plano Premium: R$ 29,99.
-- Os links atuais dos dois checkouts foram preservados, aguardando os novos links.
-- O Meta Pixel, Google Tag Manager e demais integrações existentes foram preservados.
-- Comentários das alunas receberam uma redação mais conversacional, sem alterar o sentido central.
-- Cada depoimento ganhou uma área preparada para:
-  - foto do amigurumi produzido;
-  - preço pelo qual a peça foi vendida.
+## Publicação
 
-## Importante sobre os preços dos depoimentos
+1. Envie `index.html` para a raiz do repositório.
+2. Mantenha o arquivo com esse nome.
+3. Publique normalmente no GitHub Pages ou Vercel.
 
-Os valores exibidos abaixo dos comentários estão identificados como **exemplos ilustrativos**. Substitua-os pelos valores reais informados pelas alunas antes de publicar a versão definitiva.
+## Próxima atualização
 
-## Como trocar as fotos e os preços
-
-No `index.html`, procure por `student-sale-proof`. Cada bloco contém o nome da aluna em `data-student`. Substitua o bloco `student-sale-photo-placeholder` pela imagem correspondente e altere o valor dentro de `student-sale-info`.
+Quando a última foto for enviada, substitua o bloco marcado com `data-awaiting-photo="true"`.

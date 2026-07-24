@@ -1,42 +1,28 @@
-# Meu Pet — urgência, copy de vendas e resultados das alunas (versão 3)
+# Meu Pet — ajustes promocionais v4
 
-Esta versão mantém a estrutura visual da página, o Meta Pixel, os links de checkout, as imagens incorporadas e as demais seções aprovadas.
+Arquivos prontos para publicação:
+
+- `index.html`: página completa, com estilos, imagens e scripts incorporados.
+- `README.md`: este resumo.
 
 ## Alterações realizadas
 
-- Faixa móvel e fixa no topo destacando a condição promocional ativa.
-- Aviso principal da oferta ampliado, com contraste e leitura melhores no mobile.
-- Aviso da seção de preços também ampliado e reforçado.
-- Copy principal reescrita em linguagem mais direta e informal.
-- Mensagens de venda reformuladas para explicar de forma simples como o pet personalizado pode gerar encomendas.
-- Remoção da expressão formal “alto valor percebido”.
-- Bloco de comparação reforçado com a lógica visual do “antes e depois”.
-- Área de resultados das alunas reconstruída com quatro espaços para: foto real, valor da venda, comentário e nome.
-- A área de resultados permanece oculta até o envio das provas reais.
+- Cronômetro de 18 minutos no topo, integrado à paleta marrom da página.
+- O tempo é mantido durante a mesma sessão/aba e não reinicia ao atualizar a página.
+- Valores atualizados:
+  - Plano Básico: R$ 19,99.
+  - Plano Premium: R$ 29,99.
+- Os links atuais dos dois checkouts foram preservados, aguardando os novos links.
+- O Meta Pixel, Google Tag Manager e demais integrações existentes foram preservados.
+- Comentários das alunas receberam uma redação mais conversacional, sem alterar o sentido central.
+- Cada depoimento ganhou uma área preparada para:
+  - foto do amigurumi produzido;
+  - preço pelo qual a peça foi vendida.
 
-## Sobre a urgência
+## Importante sobre os preços dos depoimentos
 
-A página usa uma urgência forte, mas sem inventar quantidade exata de vagas. A frase informa que a condição promocional pode sair do ar sem aviso. Um número como “restam 3 vagas” só deve ser publicado quando corresponder à disponibilidade real.
+Os valores exibidos abaixo dos comentários estão identificados como **exemplos ilustrativos**. Substitua-os pelos valores reais informados pelas alunas antes de publicar a versão definitiva.
 
-## Como ativar os resultados das alunas
+## Como trocar as fotos e os preços
 
-No `index.html`, procure por `RESULTADOS DAS ALUNAS`. Substitua os quatro modelos com:
-
-1. foto real do amigurumi;
-2. valor real pelo qual foi vendido;
-3. comentário real e espontâneo da aluna;
-4. nome da aluna.
-
-Depois, remova apenas o atributo `hidden` da seção `#resultados-alunas`.
-
-## Elementos preservados e conferidos
-
-- Meta Pixel: `1696881438314279`.
-- Checkout Plano Essencial: `https://pay.cakto.com.br/y2mbwcs_970161`.
-- Checkout Plano Completo: `https://pay.cakto.com.br/fdf3cfe`.
-- Imagens incorporadas diretamente no HTML.
-- Responsividade para mobile e desktop.
-
-## Publicação
-
-Substitua o arquivo atual pelo novo `index.html`. Não é necessário subir uma pasta de imagens.
+No `index.html`, procure por `student-sale-proof`. Cada bloco contém o nome da aluna em `data-student`. Substitua o bloco `student-sale-photo-placeholder` pela imagem correspondente e altere o valor dentro de `student-sale-info`.
